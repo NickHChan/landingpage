@@ -61,6 +61,7 @@ button {
 .middle {
     display: flex;
     flex-direction: column;
+    padding: 100px;
 }
 .midtextcontainer {
     display: flex;
@@ -96,4 +97,37 @@ button {
 .imgutext {
     text-align: center;
     color: #1F2937;
+}
+.middlebottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 150px;
+    gap: 20px;
+}
+.middlebottomtext {
+    display: flex;
+    width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+.middlebottomtextauthor {
+    display: flex;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 430px;
+}
+.bottomtop {
+    display: flex;
+    padding: 100px;
+}
+.bottomtopcontent {
+    display: flex;
+    padding: 100px;
+    background-color: #3882F6;
+    justify-content: center;
+
 }

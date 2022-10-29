@@ -22,7 +22,7 @@ ul {
     background-color: #1F2937;
     justify-content: space-around;
     padding: 70px;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 .headermidleft,
 .headermidright  {
@@ -30,10 +30,12 @@ ul {
 }
 .headermidleft {
     flex-direction: column;
-    justify-items: right;
     flex-wrap: wrap;
-    max-width: 360px;
+    justify-content: center;
+    max-width: 400px;
+    margin-left: 70px;
     margin-right: -130px;
+    flex-shrink: 0;
 }
 .bigtext {
     font-size: 48px;
@@ -56,7 +58,6 @@ ul {
 .headermidright {
     padding: 60px 110px;
     padding-left: 180px;
-    background-color: slategrey;
     align-items: center;
     margin-left: -100px;
 }
@@ -160,4 +161,9 @@ ul {
 }
 .copyright {
     color: #E5E7EB;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+
 }

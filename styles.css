@@ -39,11 +39,14 @@ ul {
 }
 .bigtext {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 500;
     color: #F9FAF8;
+    font-family: "Lato"
 }
 .text {
     color: #F9FAF8;
+    font-family: "Lato";
+    padding: 10px;
 }
 .topbutton,
 .bottombutton{
